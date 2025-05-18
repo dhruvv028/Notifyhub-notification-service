@@ -67,7 +67,7 @@ npm run dev
 - `GET /users`: Get all users (for demo purposes)
 - `POST /process-queue`: Process the notification queue
 
-## API Documentation (Interactive)
+## API Documentation (Interactive) 
 
 - Your FastAPI backend automatically generates interactive API documentation using Swagger UI. This allows anyone (including recruiters) to easily understand, explore, and even test your API endpoints directly from their web browser without needing a separate tool.
 
