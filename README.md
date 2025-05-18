@@ -67,6 +67,21 @@ npm run dev
 - `GET /users`: Get all users (for demo purposes)
 - `POST /process-queue`: Process the notification queue
 
+## API Documentation (Interactive)
+
+- Your FastAPI backend automatically generates interactive API documentation using Swagger UI. This allows anyone (including recruiters) to easily understand, explore, and even test your API endpoints directly from their web browser without needing a separate tool.
+
+To access the documentation:
+
+- Ensure the backend server is running. Follow the "Running the Application" steps above to start the backend (uvicorn main:app --reload).
+Once the backend is active, open your web browser and navigate to: http://127.0.0.1:8000/docs
+Key features of the interactive documentation:
+
+- Comprehensive Endpoint Listing: View all available API endpoints, their HTTP methods, and brief descriptions.
+Detailed Schemas: Understand the expected request bodies and response structures for each endpoint, including data types and required fields.
+"Try it out" Functionality: Directly make API calls to your running local backend, inputting parameters, and seeing real-time responses.
+Error Responses: View potential error codes and their associated messages.
+
 ## Project Structure
 
 ```
